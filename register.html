@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | FirstSteps</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/firststeps_logo.png" alt="FirstSteps Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="fitness.html">Programs</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Create Your Account</h1>
+                <p>Join FirstSteps today and begin your wellness journey with guidance designed specifically for beginners.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="register-form">
+        <div class="container">
+            <div class="form-container">
+                <h2>Register</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <h3>Choose Your Plan</h3>
+                        <div class="plan-selection">
+                            <div class="plan-option">
+                                <input type="radio" id="basics" name="plan" value="basics" checked>
+                                <label for="basics">FirstSteps Basics - Free</label>
+                            </div>
+                            <div class="plan-option">
+                                <input type="radio" id="journey" name="plan" value="journey">
+                                <label for="journey">FirstSteps Journey - $14.99/month</label>
+                            </div>
+                            <div class="plan-option">
+                                <input type="radio" id="complete" name="plan" value="complete">
+                                <label for="complete">FirstSteps Complete - $24.99/month</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="button button-primary">Create Account</button>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <p>Already have an account? <a href="#">Log In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/firststeps_logo.png" alt="FirstSteps Logo">
+                    <p>Your Journey, Your Pace, Our Guidance</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Programs</h4>
+                        <ul>
+                            <li><a href="fitness.html">Exercise</a></li>
+                            <li><a href="nutrition.html">Nutrition</a></li>
+                            <li><a href="fitness.html">Wellness</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Approach</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FirstSteps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
